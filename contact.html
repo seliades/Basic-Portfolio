@@ -5,22 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stu's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
-    <header>
-        <section id=name>Stu Eliades</section>
-        <a href=index.html>About</a>
-        <a href=portfolio.html>Portfolio</a>
-        <a href=contact.html>Contact</a>  
+<body class="body">
+    <header class="header">
+      <div class="header-content">
+        <div>
+          <section class="name">Stu Eliades</section>
+        <ul>  
+          <li><a href=index.html>About</a></li>
+          <li><a href=portfolio.html>Portfolio</a></li>
+          <li><a href=contact.html>Contact</a></li>  
+        </ul>
+        </div>
+      </div>
     </header>
-
-    <wrapper>
+  <br><br> 
+    <section class="wrapper">
         <h1>Contact</h1>
 
         <hr>
-
-    </wrapper>
+        <form>
+            Name:<br>
+            <input type="text" name="name">
+            <br><br>
+            Email:<br>
+            <input type="text" name="email">
+            <br><br>
+            Message:<br>
+            <input type="textarea"  name="message">
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </section>
     
-    <footer>Copyright</footer>
+    <footer class=>Copyright</footer>
 </body>
 </html>
